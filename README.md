@@ -395,7 +395,7 @@ https://travel-ai-agent-bvxdntmzw8qrdcjhpyiqmf.streamlit.app/
 # PHASE 6: Loom Video
 
 A 5-minute Loom walkthrough includes:
-https://travel-ai-agent-bvxdntmzw8qrdcjhpyiqmf.streamlit.app/
+https://www.loom.com/share/cfb8ce70430c41b9b01ba930f889bc33
 * problem statement
 * architecture explanation
 * code implementation
