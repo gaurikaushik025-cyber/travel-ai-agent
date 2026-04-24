@@ -5,18 +5,18 @@
 ### Group Members
 
 **Role A – Architect & Integrator**
-**Gauri Kaushik**
-Roll No.: 30
-
-**Role B – Builder & Deployer**
 **Soohani Gholse**
 Roll No.: 55
+
+**Role B – Builder & Deployer**
+**Gauri Kaushik**
+Roll No.: 30
 
 **Semester:** IV – B.Tech ECE-A
 **Department:** Electronics and Communication Engineering
 **Date:** 22/04/2026
 
-**GitHub Repository:** https://github.com/gaurikaushik025-cyber/travel-ai-agent
+**GitHub Repository:** **https://github.com/gaurikaushik025-cyber/travel-ai-agent**
 
 
 **Live Demo:** https://travel-ai-agent-bvxdntmzw8qrdcjhpyiqmf.streamlit.app/
