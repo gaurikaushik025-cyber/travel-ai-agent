@@ -17,9 +17,11 @@ Roll No.: 30
 **Date:** 22/04/2026
 
 **GitHub Repository:** **https://github.com/gaurikaushik025-cyber/travel-ai-agent**
+**Live Demo:** **https://travel-ai-agent-bvxdntmzw8qrdcjhpyiqmf.streamlit.app/**
 
 
-**Live Demo:** https://travel-ai-agent-bvxdntmzw8qrdcjhpyiqmf.streamlit.app/
+  Local URL: http://localhost:8501
+  Network URL: http://10.112.219.65:8501
 ---
 
 # PHASE 1: Problem Statement
