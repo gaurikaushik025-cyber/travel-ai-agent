@@ -22,8 +22,8 @@ Roll No.: 30
 **Live Demo:** **https://travel-ai-agent-bvxdntmzw8qrdcjhpyiqmf.streamlit.app/**
 
 
-  Local URL: http://localhost:8501
-  Network URL: http://10.112.219.65:8501
+  **Local URL: http://localhost:8501**
+  **Network URL: http://10.112.219.65:8501**
 ---
 
 # PHASE 1: Problem Statement
