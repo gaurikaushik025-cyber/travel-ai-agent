@@ -17,8 +17,7 @@ Roll No.: 55
 **Date:** 22/04/2026
 
 **GitHub Repository:** https://github.com/gaurikaushik025-cyber/travel-ai-agent
-**Live Demo:** https://your-app.streamlit.app
-
+**Live Demo:** https://travel-ai-agent-bvxdntmzw8qrdcjhpyiqmf.streamlit.app/
 ---
 
 # PHASE 1: Problem Statement
@@ -412,14 +411,14 @@ This provides:
 
 Live Demo Link:
 
-https://your-app.streamlit.app
+https://travel-ai-agent-bvxdntmzw8qrdcjhpyiqmf.streamlit.app/
 
 ---
 
 # PHASE 6: Loom Video
 
-A 3-minute Loom walkthrough includes:
-
+A 5-minute Loom walkthrough includes:
+https://travel-ai-agent-bvxdntmzw8qrdcjhpyiqmf.streamlit.app/
 * problem statement
 * architecture explanation
 * code implementation
