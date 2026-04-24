@@ -16,7 +16,7 @@ Roll No.: 55
 **Department:** Electronics and Communication Engineering
 **Date:** 22/04/2026
 
-**GitHub Repository:** https://github.com/yourusername/universal-travel-agent
+**GitHub Repository:** https://github.com/gaurikaushik025-cyber/travel-ai-agent
 **Live Demo:** https://your-app.streamlit.app
 
 ---
