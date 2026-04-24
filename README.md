@@ -26,52 +26,62 @@ Roll No.: 30
   Network URL: http://10.112.219.65:8501
 ---
 
-# PHASE 1: Problem Statement
+### Phase 1: Problem Statement
+### Project Title: Travel Itinerary Builder
+### Problem Statement
 
-## PROBLEM: Travel itinerary planning across diverse Indian destinations requires coordinating live flight prices, local transport, accommodations, weather risks, and activities - all changing hourly across 15+ fragmented sources. Simple chatbots deliver static, generic advice ignoring real-time availability, budget constraints, and location-specific logistics.
-## AGENT SOLUTION: Universal 3-agent system (FlightAgent + LogisticsAgent + ActivityAgent) with Tavily live search + Gemini reasoning + MasterJudge quality scoring creates personalized, budget-accurate multi-day itineraries for ANY destination (beach/mountain/city) in 30 seconds.
+Travel itinerary planning across diverse Indian destinations is a complex and time-consuming process. Travelers must coordinate live flight prices, local transport, accommodations, weather risks, and activities, all of which change frequently across 15+ fragmented platforms.
 
-## USER PROBLEM:
-"User  wants dream vacation but planning = NIGHTMARE:
-**ANDAMAN:**
- Flights ₹9k→₹18k overnight
- Resort ₹8k but empty off-season
- Scuba permits 48hrs advance
- SPITI VALLEY:
- Roads closed Nov-May
- Homestays book out June
- Extreme weather -10°C
- **DELHI:**
-Metro + Uber costs unclear
-Street food safety unknown
-Peak traffic timings
-Priya spends 10+ HOURS across 15 websites.
-She needs: 'Give me  COMPLETE itinerary under ₹25k NOW'.
-## WHY SIMPLE CHATBOT FAILS:
- **ChatGPT:** " Give me Itinerary Radhanagar Beach, Andaman"
- NO FLIGHT PRICES (₹11.5k IndiGo?)
- WRONG FERRY (8AM Port Blair→Havelock?)
- NO RESORT (Wild Orchid ₹3.8k available?)
- NO WEATHER (Monsoon risk?)
- NO BUDGET BREAKDOWN
-WHY OUR MULTI-AGENT WINS :
-4 Specialized Agents + Master Judge = PRODUCTION-GRADE:
- User: "Andaman Feb15-20 ₹25k"
-Agent:
-1️. FlightAgent (Tavily Live):
-"IndiGo Mumbai-Port Blair: ₹11,500 | Feb15 6AM → Feb20 8PM"
-2️. LogisticsAgent (3 Tavily Searches):
-"Weather: Sunny 28°C | Wild Orchid Resort: ₹3,800/night | Ferry: 8AM Port Blair→Havelock"
-3️. ActivityAgent (Tavily Live):
-"Day3: Radhanagar Beach (₹0) | Day4: Scuba Dive (₹6,500)"
-4️.  MasterJudge:
-" Flights ✓ |  Ferry ✓ |  Resort ✓ |  Activities ✓ |  Weather-safe ✓" TOTAL: ₹24,300 | QUALITY: 9.5/10 
-AGENTIC ADVANTAGE:
-• LIVE DATA (Tavily updates every run)
-• SPECIALIZATION (3 expert agents)
-• QUALITY GATE (Judge rejects bad output)
-• UNIVERSAL (Andaman → Spiti → Delhi)
+Traditional chatbots and simple travel assistants often provide only static and generic suggestions. They fail to consider:
 
+Real-time flight availability and pricing
+Hotel availability and seasonal demand
+Local transport and ferry schedules
+Weather conditions and travel risks
+Budget constraints
+Destination-specific logistics and activity planning
+
+As a result, users spend hours manually checking multiple websites like MakeMyTrip, Goibibo, hotel booking platforms, weather apps, and travel blogs just to create one complete trip plan.
+
+### User Problem
+
+The user wants a dream vacation, but travel planning becomes a nightmare.
+
+Example Scenarios
+Andaman
+Flight prices change from ₹9,000 to ₹18,000 overnight
+Resorts may be expensive or unavailable during peak season
+Scuba diving permits often require 48-hour advance booking
+Spiti Valley
+Roads remain closed from November to May
+Homestays get fully booked during summer
+Extreme weather conditions can reach -10°C
+Delhi
+Metro + Uber travel costs are unclear
+Street food safety information is difficult to verify
+Peak traffic timings affect daily planning
+
+A typical traveler like Priya spends 10+ hours across 15 different websites.
+
+What she really needs is:
+
+“Give me a complete travel itinerary under ₹25,000 right now.”
+
+Why Simple Chatbots Fail
+
+Example:
+
+### User Prompt:
+“Give me an itinerary for Radhanagar Beach, Andaman”
+
+Traditional Chatbot Response Problems
+No live flight prices (Is IndiGo really ₹11,500?)
+Wrong ferry timing (Is the 8 AM Port Blair → Havelock ferry available?)
+No real hotel availability (Is Wild Orchid Resort available at ₹3,800?)
+No weather awareness (Is there monsoon risk?)
+No proper budget breakdown
+
+This makes the itinerary incomplete and unreliable for real travel decisions.
 ## Agentic Solution
 
 We developed a **Universal Multi-Agent AI Travel Planner** that creates complete travel itineraries for any destination within 30 seconds.
