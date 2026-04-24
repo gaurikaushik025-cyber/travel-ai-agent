@@ -4,11 +4,11 @@
 
 ### Group Members
 
-**Role A – Architect & Integrator**
+**Role A – Architect & Integrator:**
 **Soohani Gholse**
 Roll No.: 55
 
-**Role B – Builder & Deployer**
+**Role B – Builder & Deployer:**
 **Gauri Kaushik**
 Roll No.: 30
 
